@@ -1,4 +1,4 @@
-var num = 266219;
+let num = 266219;
 
  otvet=num.toString().split('').reduce((res, item) => item * res, 1);
  console.log(otvet);
